@@ -1,0 +1,65 @@
+        body {
+            background-image: url("../imagens/fundo.png");
+            width: 800px;
+            height: 600px;
+        }
+        
+        #copyright {
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .banner {
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        
+        #menu {
+            position: relative;
+            overflow: hidden;
+            background-color: #ceceb4;
+        }
+        
+        #menu ul {
+            display: flex;
+            flex-direction: row;
+            list-style-type: none;
+        }
+        
+        #menu li {
+            margin: .25em 0;
+            padding: 0 1em;
+            text-align: center;
+            border-left: 1px solid rgb(0, 0, 0);
+        }
+        
+        #menu a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: rgb(50, 52, 141);
+            font-weight: bolder;
+        }
+        
+        .about {
+            background-color: beige;
+            border: 10px solid beige;
+            position: relative;
+            margin-bottom: 2em;
+        }
+        
+        .about h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            color: #919170;
+        }
+        
+        .about figure {
+            border: 1em #e9e9cd groove;
+            padding: 1px;
+            margin: none;
+        }
+        
+        .about span {
+            font-weight: bold;
+        }
